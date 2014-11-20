@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E057D72D1A1E61B40096FB6D /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E057D72C1A1E61B40096FB6D /* MyViewController.m */; };
 		E0C74A371A1E2409006AF802 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C74A361A1E2409006AF802 /* main.m */; };
 		E0C74A3A1A1E2409006AF802 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C74A391A1E2409006AF802 /* AppDelegate.m */; };
 		E0C74A3D1A1E2409006AF802 /* MultipleModals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0C74A3B1A1E2409006AF802 /* MultipleModals.xcdatamodeld */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E057D72B1A1E61B40096FB6D /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		E057D72C1A1E61B40096FB6D /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		E0C74A311A1E2409006AF802 /* MultipleModals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleModals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C74A351A1E2409006AF802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0C74A361A1E2409006AF802 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 			children = (
 				E0C74A381A1E2409006AF802 /* AppDelegate.h */,
 				E0C74A391A1E2409006AF802 /* AppDelegate.m */,
+				E057D72B1A1E61B40096FB6D /* MyViewController.h */,
+				E057D72C1A1E61B40096FB6D /* MyViewController.m */,
 				E0C74A3E1A1E2409006AF802 /* ViewController.h */,
 				E0C74A3F1A1E2409006AF802 /* ViewController.m */,
 				E0C74A411A1E2409006AF802 /* Main.storyboard */,
@@ -226,6 +231,7 @@
 				E0C74A3A1A1E2409006AF802 /* AppDelegate.m in Sources */,
 				E0C74A401A1E2409006AF802 /* ViewController.m in Sources */,
 				E0C74A371A1E2409006AF802 /* main.m in Sources */,
+				E057D72D1A1E61B40096FB6D /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				E0C74A591A1E240A006AF802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0C74A5A1A1E240A006AF802 /* Build configuration list for PBXNativeTarget "MultipleModalsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				E0C74A5C1A1E240A006AF802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
