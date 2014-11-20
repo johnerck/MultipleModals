@@ -62,4 +62,13 @@ static BOOL doAgain = YES; // So when red appears again, we don't endlessly cycl
     }
 }
 
+- (void)viewDidLoad
+{
+    // Invoke super
+    [super viewDidLoad];
+    
+    // Set self's background color
+    self.view.backgroundColor = [UIColor redColor]; // Color of self, root VC
+}
+
 @end
