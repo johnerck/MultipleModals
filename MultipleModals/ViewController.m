@@ -49,7 +49,7 @@ static BOOL doAgain = YES; // So when red appears again, we don't endlessly cycl
                     // FIXED MY ISSUE STARTING HERE
                     
                     // Comment out the following code to toggle between
-                    // the "flashing purple issue" and "my desired outcome" (single
+                    // the "flashing purple issue" and "the desired outcome" (single
                     // animation from top to bottom regardless of how many VCs are
                     // on the stack, i.e. no flashing).
                     
