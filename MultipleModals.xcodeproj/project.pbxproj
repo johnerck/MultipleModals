@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E057D72D1A1E61B40096FB6D /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E057D72C1A1E61B40096FB6D /* MyViewController.m */; };
+		E057D7301A1E6B230096FB6D /* MyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E057D72F1A1E6B230096FB6D /* MyHelper.m */; };
 		E0C74A371A1E2409006AF802 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C74A361A1E2409006AF802 /* main.m */; };
 		E0C74A3A1A1E2409006AF802 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C74A391A1E2409006AF802 /* AppDelegate.m */; };
 		E0C74A3D1A1E2409006AF802 /* MultipleModals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0C74A3B1A1E2409006AF802 /* MultipleModals.xcdatamodeld */; };
@@ -31,6 +32,8 @@
 /* Begin PBXFileReference section */
 		E057D72B1A1E61B40096FB6D /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		E057D72C1A1E61B40096FB6D /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		E057D72E1A1E6B230096FB6D /* MyHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHelper.h; sourceTree = "<group>"; };
+		E057D72F1A1E6B230096FB6D /* MyHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHelper.m; sourceTree = "<group>"; };
 		E0C74A311A1E2409006AF802 /* MultipleModals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleModals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C74A351A1E2409006AF802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0C74A361A1E2409006AF802 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,6 +95,8 @@
 				E057D72C1A1E61B40096FB6D /* MyViewController.m */,
 				E0C74A3E1A1E2409006AF802 /* ViewController.h */,
 				E0C74A3F1A1E2409006AF802 /* ViewController.m */,
+				E057D72E1A1E6B230096FB6D /* MyHelper.h */,
+				E057D72F1A1E6B230096FB6D /* MyHelper.m */,
 				E0C74A411A1E2409006AF802 /* Main.storyboard */,
 				E0C74A441A1E2409006AF802 /* Images.xcassets */,
 				E0C74A461A1E2409006AF802 /* LaunchScreen.xib */,
@@ -230,6 +235,7 @@
 				E0C74A3D1A1E2409006AF802 /* MultipleModals.xcdatamodeld in Sources */,
 				E0C74A3A1A1E2409006AF802 /* AppDelegate.m in Sources */,
 				E0C74A401A1E2409006AF802 /* ViewController.m in Sources */,
+				E057D7301A1E6B230096FB6D /* MyHelper.m in Sources */,
 				E0C74A371A1E2409006AF802 /* main.m in Sources */,
 				E057D72D1A1E61B40096FB6D /* MyViewController.m in Sources */,
 			);

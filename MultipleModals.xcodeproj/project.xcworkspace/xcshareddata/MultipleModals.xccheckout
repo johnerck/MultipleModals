@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F28775FF-50FA-4E6E-9E07-E9FD495C2DFF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MultipleModals</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D4997B57F1981D8C47D96639E7E8E6E2FF219C4C</key>
+		<string>github.com:johnerck/MultipleModals.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MultipleModals.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D4997B57F1981D8C47D96639E7E8E6E2FF219C4C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:johnerck/MultipleModals.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D4997B57F1981D8C47D96639E7E8E6E2FF219C4C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D4997B57F1981D8C47D96639E7E8E6E2FF219C4C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MultipleModals</string>
+		</dict>
+	</array>
+</dict>
+</plist>

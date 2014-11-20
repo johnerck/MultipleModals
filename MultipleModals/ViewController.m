@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MyViewController.h"
+#import "MyHelper.h"
 
 @interface ViewController ()
 
@@ -44,6 +45,24 @@ static BOOL doAgain = YES; // So when red appears again, we don't endlessly cycl
                 orange.title = @"orange"; // For use in MyViewController's dealloc method
                 [green presentViewController:orange animated:NO completion:^{ // Orange successfully gets presented and the user DOES see orange, great.
                     NSLog(@"Orange?");
+                    
+                    // FIXED MY ISSUE STARTING HERE
+                    
+                    // Comment out the following code to toggle between
+                    // the "flashing purple issue" and "my desired outcome" (single
+                    // animation from top to bottom regardless of how many VCs are
+                    // on the stack, i.e. no flashing).
+                    
+                    // Get orange screenshot
+                    UIImage *orangeScreenShotImage = [MyHelper screenshot];
+                    UIImageView *orangeScreenShotImageView = [[UIImageView alloc] initWithImage:orangeScreenShotImage];
+                    
+                    // Give purple an orange screenshot since orange will just "flash away" and then purple will animate
+                    // away but we'll desquize purple to appear as if it's orange by layer a screenshot of orange on purple. Boom.
+                    [purple.view addSubview:orangeScreenShotImageView];
+                    
+                    // FIXED MY ISSUE ENDING HERE
+                    
                     // FOR TESTING PURPOSES... dismiss after 5 seconds...
                     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                         doAgain = NO; // Prevent viewDidAppear loop (related to my testing code)...
