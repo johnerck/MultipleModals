@@ -58,7 +58,7 @@ static BOOL doAgain = YES; // So when red appears again, we don't endlessly cycl
                     UIImageView *orangeScreenShotImageView = [[UIImageView alloc] initWithImage:orangeScreenShotImage];
                     
                     // Give purple an orange screenshot since orange will just "flash away" and then purple will animate
-                    // away but we'll desquize purple to appear as if it's orange by layer a screenshot of orange on purple. Boom.
+                    // away but we'll disguise purple to appear as if it's orange by layering a screenshot of orange on purple. Boom.
                     [purple.view addSubview:orangeScreenShotImageView];
                     
                     // FIXED MY ISSUE ENDING HERE
